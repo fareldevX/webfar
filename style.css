@@ -62,9 +62,12 @@ nav {
         position: fixed;
         left: 0;
     }
+    .menu {
+    }
     .menu ul {
         display: flex;
         flex-direction: column;
+        margin-bottom: 3em;
     }
     .menu li {
         display: flex;
