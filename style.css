@@ -56,13 +56,11 @@ nav {
     nav {
         display: flex;
         flex-wrap: wrap;
-        align-content: space-between;
+        align-content: flex-start;
         width: 25%;
         height: 100vh;
         position: fixed;
         left: 0;
-    }
-    .menu {
     }
     .menu ul {
         display: flex;
@@ -73,7 +71,7 @@ nav {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 8px 0;
+        margin: 5px 0;
     }
 }
 /* RESPONSIVE END */
