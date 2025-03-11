@@ -100,9 +100,72 @@ a.active,a:hover {
     width: 200px;
     height: auto;
 }
+
+#about {
+    background: linear-gradient(to bottom, var(--txt-white) 40%, rgba(255, 255, 255, 0.63) 70%, rgba(255, 255, 255, 0) 100%);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 14em 0;
+}
+
+.card {
+    width: 30%;
+    margin: 0 24px;
+}
+
+.educational-background p {
+    margin: 14px 0;
+}
+
+.container-achievment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 1.5em;
+    text-align: center; 
+    color: #eaeaea; 
+    margin: 18px 0;
+}
+
+.container-card-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0;
+}
+
+.card-column {
+    display: inline-block;
+    width: 15%;
+    margin: 0 16px;
+    background-color: #f4f4f4;
+    box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.column {
+    padding: 8px;
+}
 /* CONTENT END */
 
 /* RESPONSIVE */
+@media (max-width: 1060px) {
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
 @media (max-width: 952px) {
     label.logo {
         font-size: 30px;
@@ -111,6 +174,10 @@ a.active,a:hover {
 
     nav ul li a {
         font-size: 16px;
+    }
+    .card {
+        width: 100%;
+        margin: 10px 0;
     }
 }
 
@@ -148,6 +215,10 @@ a.active,a:hover {
 
     #check:checked ~ ul {
         left: 0;
+    }
+    .card {
+        width: 100%;
+        margin: 10px 0;
     }
 }
 /* RESPONSIVE END */
