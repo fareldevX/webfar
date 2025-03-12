@@ -161,9 +161,24 @@ a.active,a:hover {
 
 /* RESPONSIVE */
 @media (max-width: 1060px) {
+    .container-card {
+        flex-wrap: wrap
+    }
     .card {
         width: 100%;
-        margin: 10px 0;
+        margin: 14px 0;
+    }
+    .container-achievment {
+        height: 70vh;
+    }
+    .container-card-column {
+        flex-wrap: wrap;
+        margin-top: 14px;
+    }
+    .card-column {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
     }
 }
 @media (max-width: 952px) {
@@ -175,9 +190,24 @@ a.active,a:hover {
     nav ul li a {
         font-size: 16px;
     }
+    .container-card {
+        flex-wrap: wrap
+    }
     .card {
         width: 100%;
-        margin: 10px 0;
+        margin: 14px 0;
+    }
+    .container-achievment {
+        height: 70vh;
+    }
+    .container-card-column {
+        flex-wrap: wrap;
+        margin-top: 14px;
+    }
+    .card-column {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
     }
 }
 
@@ -216,9 +246,24 @@ a.active,a:hover {
     #check:checked ~ ul {
         left: 0;
     }
+    .container-card {
+        flex-wrap: wrap
+    }
     .card {
         width: 100%;
-        margin: 10px 0;
+        margin: 14px 0;
+    }
+    .container-achievment {
+        height: 70vh;
+    }
+    .container-card-column {
+        flex-wrap: wrap;
+        margin-top: 14px;
+    }
+    .card-column {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
     }
 }
 /* RESPONSIVE END */
